@@ -35,6 +35,10 @@
     
     
     // Back to top button
+    $('.back-to-top').css({
+            'display': 'none',
+        });
+
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             $('.back-to-top').fadeIn('slow');
